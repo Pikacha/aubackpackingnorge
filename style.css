@@ -1,0 +1,267 @@
+.flex-container{
+margin-top: 650px;
+display: flex;
+
+}
+
+.flex-container a, h1{
+ color: white;
+ text-decoration: none;
+}
+
+
+.flex-container > div {
+  text-shadow: 1px 1px black;
+  text-align: center;
+  justify-content: space-around;
+  margin: 10px;
+  height: 350px;
+  width: 50%;
+}
+
+.flex-container h1 {
+  padding-top: 80px;
+  font-size: 100px;
+}
+
+#sydney {
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  background-image: url('https://images.unsplash.com/photo-1523428096881-5bd79d043006?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+#sydney:hover{
+transition: .3s ease;
+opacity: 0.8;
+}
+
+#gold {
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  background-image: url('https://images.unsplash.com/photo-1441794016917-7b6933969960?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+#gold:hover {
+  transition: .3s ease;
+  opacity: 0.8;
+}
+
+#cairns {
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  background-image: url("bilder1/cairns/3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+#cairns:hover {
+  transition: .3s ease;
+  opacity: 0.8;
+}
+
+footer p  {
+  font-size: 20px;
+  width: 350px;
+}
+
+footer a {
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: blue;
+  font-size: 20px;
+}
+
+
+.frontpage, #front-text {
+  top: 50px;
+  margin-top: -10px;
+  border-radius: 19px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.frontpage {
+  font-size: 70px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  margin-top: 70px;
+}
+
+.text {
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  max-width: 350px;
+}
+
+
+.australia {
+right: 150px;
+height: 70px;
+width: 70px;
+
+}
+
+.beach-title {
+  font-size: 80px;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar {
+  background-color: #2c5098;
+  overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.navbar  a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.jumbotron {
+padding-bottom: 600px;
+font-size: 30px;
+height: 450px;
+padding-top: 100px;
+background-size: cover;
+}
+
+/* Frontpage video background */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  padding-bottom: 200px;
+  z-index: -1;
+}
+.navbar a:hover {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #1687a7;
+}
+
+
+.about-section {
+  padding-top: 60px;
+  font-size: 30px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+
+}
+
+.form-group {
+  padding-bottom: 300px;
+  padding-top: 60px;
+  font-size: 30px;
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.form-control {
+  padding-bottom: 200px;
+}
+
+.form-group > button {
+width: 200px;
+}
+
+.gold-coast {
+background-image: url('https://images.unsplash.com/photo-1524794189013-9d0ca74640e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+
+}
+
+.cairns-main {
+  text-align: center;
+}
+
+
+.cairs-main img {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.front-text {
+  color: white;
+  background-color: #03366B;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  opacity: 0.8;
+}
+
+.display-1 {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #03366B;
+}
+
+.sydney-main {
+  padding-right: 10px;
+margin: 30 auto;
+justify-content: space-around;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.sydney-text {
+padding-top: 20px;
+text-align: left;
+font-size: 25px;
+width: 700px;
+}
+#buss-info {
+  border-radius: 20px;
+}
